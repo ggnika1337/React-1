@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(22, 22, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  color: rgb(25, 83, 13);
+  font-size: 70px;
+  font-weight: 700;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0px;
+  border: 1px solid rgb(25, 83, 13);
+  border-radius: 2px;
+  transition: 1s;
+}
+
+.heading:hover {
+  box-shadow: 10px 10px 20px black;
+  color: brown;
+  cursor: pointer;
+  border: 1px solid brown;
+  border-radius: 20px;
+}
